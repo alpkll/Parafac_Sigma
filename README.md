@@ -15,6 +15,7 @@ Given a tensor `X`, Tucker-2 decomposition approximates it as:
 $$
 \mathbf{X} \approx \mathcal{G} \times_1 \mathbf{U}^{(T)} \times_2 \mathbf{U}^{(S)}
 $$
+
 where $\mathcal{G}$ is a core tensor and $\mathbf{U}^{(T)}, \mathbf{U}^{(S)}$ are factor matrices. Then, we present the Tucker2-ALS-Sigma algorithm (See the Algorithm 2 in the paper) which is used to iteratively update these factors to minimize the reconstruction error under Sigma norm.
 
 
