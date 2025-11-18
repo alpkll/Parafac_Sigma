@@ -1,0 +1,10 @@
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+torchinfo==1.8.0
+cupy==13.3.0
+psutil==6.0.0
+tqdm==4.66.4
+numpy==1.26.4
+Pillow==10.4.0
+nvidia-ml-py3==7.352.0
+
