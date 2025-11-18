@@ -11,6 +11,7 @@ This repository contains computation of Sigma matrix using the Cholesky decompos
 Consider the Sigma matrix $\Sigma := \mathbb{E}[xx^T]$. Firstly, we compute the square root of the Sigma matrix $\Sigma^{1/2}$ through the implementation of Cholesky decomposition.
 
 Given a tensor `X`, Tucker-2 decomposition approximates it as:
+
 $$
 \mathbf{X} \approx \mathcal{G} \times_1 \mathbf{U}^{(T)} \times_2 \mathbf{U}^{(S)}
 $$
